@@ -1,8 +1,7 @@
 from flask import Flask
 from flask import request
-from flask_restful import Api, Resource, reqparse
+from flask_restful import Api, Resource
 import uuid
-import sys
 import os
 import skype_manager as skype_manager
 
@@ -250,8 +249,7 @@ class Utils(Resource):
             
         
         return result, 200
-            
-            
+                      
     def shutdown_server(self):
         func = request.environ.get('werkzeug.server.shutdown')
         
