@@ -246,6 +246,8 @@ class Utils(Resource):
                 result["connected"] = connected
             else:
                 result["errors"] = errors
+        elif type == "ping":
+            result["status"] = True
             
         
         return result, 200
@@ -263,4 +265,4 @@ api.add_resource(ChatUsers, "/chatUsers", "/chatUsers/")
 api.add_resource(Utils, "/utils", "/utils/", "/utils/<string:type>")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
