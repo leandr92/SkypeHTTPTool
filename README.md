@@ -22,15 +22,15 @@
 - DELETE chatUsers - удалить пользователя из чата (поддерживается тихий режим без вывода сообщения в чат)
 
 ## Зависимости 
-    FLask
+FLask
     
-    ```sh 
-    pip install flask-restful
-    ```
-    
-    ```sh 
-    pip install skpy
-    ```
+```sh 
+pip install flask-restful
+```
+
+```sh 
+pip install skpy
+```
 
 ## Сборка в exe
 Для сборки приложения в exe необходимо установить pyinstaller 
