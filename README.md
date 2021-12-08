@@ -28,7 +28,7 @@ FLask
 ```sh 
 pip install flask-restful
 ```
-
+Библиотека работы со скайпом
 ```sh 
 pip install skpy
 ```
