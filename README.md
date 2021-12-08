@@ -5,7 +5,7 @@
 Приложение стартует по адресу 127.0.0.1:5000
 
 После этого можно в него слать запросы. Примеры запросов можно посмотреть в postman-коллекции 
-[a relative link](SkypeTool.postman_collection.json). Для этого нужно будет импортировать коллекцию в Postman
+[SkypeTool.postman_collection.json](SkypeTool.postman_collection.json). Для этого нужно будет импортировать коллекцию в Postman
 
 ## Возможности
 !Не поддерживает двухфакторная авторизация
