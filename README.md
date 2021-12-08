@@ -23,9 +23,11 @@
 
 ## Зависимости 
     FLask
+    
     ```sh 
     pip install flask-restful
     ```
+    
     ```sh 
     pip install skpy
     ```
